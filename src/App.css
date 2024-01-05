@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+body{
+    background: url(https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-box{
+    border: 3px solid white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: azure;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-style{
+    margin: 5px;
+    margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.text-style1{
+    margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-style2{
+    margin: 30px;
 }
