@@ -1,37 +1,49 @@
-body{
-    background: url(https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background: url(https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
-.weather-box{
-    border: 3px solid white;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 20px;
-    background-color: azure;
-    text-align: center;
+.weather-box {
+  border: 3px solid white;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: azure;
+  text-align: center;
 }
 
-.button-style{
-    margin: 5px;
-    margin-top: 10px;
+.button-style {
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 50px;
+  font-weight: bold;
 }
 
-.text-style1{
-    margin: 5px;
+.btn-city {
+  background-color: #007bff !important;
+  color: white !important;
+  border-color: #007bff !important;
 }
-.text-style2{
-    margin: 30px;
+
+.active {
+  filter: brightness(85%);
+}
+
+.text-style1 {
+  margin: 5px;
+}
+.text-style2 {
+  margin: 30px;
 }
